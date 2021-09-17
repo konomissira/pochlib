@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+#myBooks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    width: 100%;
+    background-color: #eff0f3;
+    text-align: center;
+    padding: 10px 20px;
+    -webkit-box-shadow: 0 5px 0 0 rgba(0,0,0,0.1);
+box-shadow: 0 5px 0 0 rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.addBook {
+    background-color: #469388;
+    color: #fff;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.myForm {
+    width: 100%;
+    margin: 20px;
+}
+input[type=text] {
+    width: 100%;
+}
+
+.titre, .auteur {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+}
+
+.rechercher, .annuler {
+    width: 120px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.rechercher {
+    background-color: #469388;
+    margin-bottom: 20px;
+}
+.annuler {
+    background-color: #DC143C;
+}
